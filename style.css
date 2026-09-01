@@ -5,6 +5,7 @@
 body {
 font-family: 'Roboto Mono', monospace;
 background-color: white;
+color: black;
 }
 
 #root {
@@ -17,7 +18,7 @@ justify-content: center;
 
 button,
 button:active {
-background-color: rgb(145, 183, 220);
+background-color: rgb(137, 177, 218);
 border: none;
 width: 42px;
 height: 40px;
@@ -41,7 +42,7 @@ box-shadow: 0.2em 0.2em rgb(53, 85, 135) inset;
 /* Clock Body */
 
 .clock-container {
-background-color: rgb(205, 224, 241);
+background-color: rgb(185, 211, 235);
 width: 350px;
 border-radius: 20px;
 padding: 30px;
@@ -56,12 +57,12 @@ font-size: 70px;
 text-align: center;
 
 color: black;
-background-color: rgb(137, 177, 217);
+background-color: rgb(113, 151, 193);
 
 padding: 20px;
 border-radius: 20px;
 
-box-shadow: 3px 3px rgb(76, 111, 157) inset;
+box-shadow: 3px 3px rgb(53, 85, 135) inset;
 }
 
 #display-controls {
@@ -78,13 +79,13 @@ text-align: center;
 padding-top: 2px;
 
 color: black;
-background-color: rgb(137, 177, 217);
+background-color: rgb(113, 151, 193);
 
 border-radius: 10px;
 height: 40px;
 flex: 2;
 
-box-shadow: 3px 3px rgb(76, 111, 157) inset;
+box-shadow: 3px 3px rgb(53, 85, 135) inset;
 }
 
 #timer-ssr {
@@ -118,7 +119,7 @@ text-align: center;
 
 color: black;
 
-border: 2px solid rgb(145, 183, 220);
+border: 2px solid rgb(53, 85, 135);
 
 padding: 10px;
 border-radius: 10px;
