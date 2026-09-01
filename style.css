@@ -16,7 +16,7 @@ justify-content: center;
 /* Buttons */
 
 button,
-button:active {
+button {
 background-color: rgb(164, 194, 224);
 border: none;
 width: 42px;
@@ -30,7 +30,7 @@ box-shadow: 0.2em 0.2em rgb(53, 85, 135);
 -moz-box-shadow: 0.2em 0.2em rgb(53, 85, 135);
 }
 
-button:focus {
+button {
 translate: 0.2em 0.2em;
 
 box-shadow: 0.2em 0.2em rgb(53, 85, 135) inset;
@@ -41,7 +41,7 @@ box-shadow: 0.2em 0.2em rgb(53, 85, 135) inset;
 /* Clock Body */
 
 .clock-container {
-background-color: rgb(244, 248, 252);
+background-color: rgb(215, 230, 244);
 width: 350px;
 border-radius: 20px;
 padding: 30px;
@@ -134,3 +134,4 @@ color: black;
 .inc-arrow {
 margin-right: 12px;
 }
+
