@@ -3,17 +3,18 @@
 /* General */
 
 body {
-font-family: 'Roboto Mono', monospace;
-background-color: white;
+  font-family: 'Roboto Mono', monospace;
+  background-color: white;
+  margin: 0;
+  padding: 0;
 }
 
 #root {
-display: flex;
-align-items: center;
-justify-content: center;
-
-transform: scale(0.7);
-transform-origin: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: fit-content;
+  height: fit-content;
 }
 
 /* Buttons */
