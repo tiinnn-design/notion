@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
 
 /* General */
 
@@ -16,7 +16,7 @@ justify-content: center;
 /* Buttons */
 
 button,
-button {
+button:active {
 background-color: rgb(164, 194, 224);
 border: none;
 width: 42px;
@@ -30,7 +30,7 @@ box-shadow: 0.2em 0.2em rgb(53, 85, 135);
 -moz-box-shadow: 0.2em 0.2em rgb(53, 85, 135);
 }
 
-button {
+button:focus {
 translate: 0.2em 0.2em;
 
 box-shadow: 0.2em 0.2em rgb(53, 85, 135) inset;
